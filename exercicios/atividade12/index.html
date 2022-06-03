@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 12</title>
+</head>
+<body>
+    <h2>Imagens</h2>
+    <picture>
+        <source media="(max-width: 450px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 800px)" srcset="imagens/foto-m.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-g.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto que muda de tamanho, quando voce diminua ou aumenta o tamanho do navegador.">
+    </picture>
+    <h2>Audio</h2>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    </audio>
+    <h2>Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ejkb_YpuHWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
