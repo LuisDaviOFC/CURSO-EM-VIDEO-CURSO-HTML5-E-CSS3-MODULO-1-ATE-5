@@ -1,0 +1,21 @@
+body{
+    background-color: #1d1d1d;
+}
+
+body > section{
+    color: white;
+    text-align: center;
+}
+
+body > section > a{
+    color: white;
+    text-decoration: none; 
+}
+
+body > section > iframe{
+    margin-bottom: 20px;
+}
+
+body > section > a > img{
+    margin-top: 20px;
+}
